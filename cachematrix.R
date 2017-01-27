@@ -4,7 +4,7 @@
 ## Write a short comment describing this function
 ## Write a short comment describing this function
 
-makeCacheMatri <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {
   inv_x <- NULL
   set <- function(y) {
     x <<- y
@@ -22,7 +22,7 @@ makeCacheMatri <- function(x = matrix()) {
 ## Write a short comment describing this function
 ## Write a short comment describing this function
 
-cacheSolv <- function(x, ...) {
+cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
             inv_x <- x$getinverse()
     if (!is.null(inv_x)) {
