@@ -2,8 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
+## Write a short comment describing this function
 
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatri <- function(x = matrix()) {
   inv_x <- NULL
   set <- function(y) {
     x <<- y
@@ -19,8 +20,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## Write a short comment describing this function
 
-cacheSolve <- function(x, ...) {
+cacheSolv <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
             inv_x <- x$getinverse()
     if (!is.null(inv_x)) {
